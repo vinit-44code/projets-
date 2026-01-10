@@ -1,0 +1,33 @@
+#include <iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+vector<int>arrpro( vector<int>nums){
+  int n = nums.size();
+  vector<int>ans(n,1);
+
+  for(int i = 1 ; i < n ; i++){
+    ans[i] = ans[i-1]*nums[i-1];
+  }
+  int s = 1;
+  for(int i = n-2 ; i>= 0 ; i--){
+    s *= ans[i + 1]*nums[i+1];
+    ans[i] *= s ;
+
+  }
+
+
+      for(int val : ans){
+        cout<<"["<<val <<"]"<<" ";
+      }
+  
+    return ans;
+}
+
+
+int main(){
+  vector<int>nums = {2,1,6,4,9,8};
+
+  arrpro(nums);
+}
