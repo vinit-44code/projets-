@@ -1,0 +1,187 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(56, 58, 64);
+   color: azure;
+   margin-bottom: 30px;
+}
+
+#name{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(254, 254, 254);
+    #lastName{
+        color: blue;
+    }
+}
+
+#navbar{
+        background-color: rgb(144, 141, 141);
+       display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+
+#herosection{
+    max-width: 500px;;
+  padding: 40px;
+  background-color: rgb(215, 221, 221);
+  margin-left: 400px;
+   margin-right: 40px;
+   margin-bottom: 50px;
+}
+
+
+.herocontant{
+    display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 25px;
+  background-color: rgb(241, 236, 236);
+}
+
+#view {
+    padding: 10px 20px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
+
+#view:hover {
+    background-color: deepskyblue;
+}
+
+
+#about{
+     max-width: 500px;;
+  padding: 40px;
+  background-color: rgb(215, 221, 221);
+  margin-left: 400px;
+   margin-right: 40px;
+   margin-bottom: 50px;
+
+}
+
+   #about P{
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 10px;
+   }
+  #aboutME{
+            text-align: center;
+            background-color: rgb(237, 243, 243);
+            font-size: 20px;
+   }
+
+  #projects{
+                      max-width: 500px;;
+                   padding: 40px;
+                      background-color: rgb(215, 221, 221);
+                      margin-left: 400px;
+                      margin-right: 40px;
+                     margin-bottom: 50px;
+                }
+
+                  #projects P{
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 10px;
+   }
+
+   #proj{
+       text-align: center;
+            background-color: rgb(237, 243, 243);
+            font-size: 20px;
+            text-decoration: none;
+   }
+
+   #skills{
+      max-width: 500px;;
+  padding: 40px;
+  background-color: rgb(215, 221, 221);
+  margin-left: 400px;
+   margin-right: 40px;
+   margin-bottom: 50px;
+   p{
+         font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 10px;
+   }
+   }
+
+                #skillbar{
+                     text-align: center;
+            background-color: rgb(237, 243, 243);
+            font-size: 20px;
+            text-decoration: none;
+                }
+
+
+                #contarct_me{
+                     max-width: 500px;;
+                   padding: 40px;
+                      background-color: rgb(215, 221, 221);
+                      margin-left: 400px;
+                      margin-right: 40px;
+                     margin-bottom: 50px;
+                    
+                }
+                
+                  #contarct_me P{
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 10px;
+
+   }
+
+   #contract{
+         text-align: center;
+            background-color: rgb(237, 243, 243);
+            font-size: 20px;
+            text-decoration: none;
+   }
+
+   .contactInfo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactInfo input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+ 
+
+
+footer{
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+
